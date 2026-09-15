@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import SplashScreen from "@/components/SplashScreen";
 import VideoFooter from "@/components/VideoFooter";
 import Header from "@/components/Header";
+import "./globals.css";
 
 /* =========================
    FONTS
