@@ -104,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-body">
         {/* ADD as the very first thing inside <body>, before <SmoothScroll> */}
 {/* <SplashScreen /> */}
+        <SmoothScroll>
           <MainNav />
           {/* <Header/> */}
           <div className="lg:pl-[230px]">
@@ -113,6 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* <Footer /> */}
             <VideoFooter/>
           </div>
+        </SmoothScroll>
       </body>
     </html>
   );

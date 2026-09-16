@@ -54,7 +54,7 @@ export default function VideoFooter() {
               href="tel:+919819863229"
               className="text-sm text-white/80 transition hover:text-white"
             >
-              +91 98198 63229
+              +91 6263908164
             </a>
           </div>
 
@@ -65,9 +65,9 @@ export default function VideoFooter() {
             </p>
 
             <p className="mx-auto max-w-md text-sm leading-6 text-white/80">
-              Astha Bungalow no.30, JP Rd, Aram Nagar Part 2,
+              Astha Bungalow no.30, JP Rd, Tejaji Nagar Part 2,
               <br className="hidden sm:block" />
-              Andheri West, Mumbai, Maharashtra 400061
+              Indore, Madhya Pradesh 452001, India
             </p>
           </div>
 
@@ -81,7 +81,7 @@ export default function VideoFooter() {
               href="mailto:info@theweddingfilmer.co.in"
               className="text-sm text-white/80 transition hover:text-white"
             >
-              info@theweddingfilmer.co.in
+              info@photography.co.in
             </a>
           </div>
         </div>
