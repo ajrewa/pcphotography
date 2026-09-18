@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
@@ -147,9 +148,18 @@ export default function PhotographerJourney() {
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#f5f3ee]">
-      {/* ================================================================ */}
-      {/* STORY                                                            */}
-      {/* ================================================================ */}
+      {/* backbutton */}
+      <div className="my-4 ml-4 flex justify-left">
+        <a
+          href="/"
+          className="group flex items-center gap-3 rounded-full bg-white px-7 py-4 text-sm font-medium text-black shadow-xl transition-all duration-300 hover:scale-105 hover:bg-neutral-100"
+        >
+          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-black text-white transition-transform duration-300 group-hover:translate-x-1">
+            <ArrowLeft size={15} />
+          </span>
+          Back
+        </a>
+      </div>
 
       <section
         className="
